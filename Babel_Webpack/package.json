@@ -1,0 +1,19 @@
+{
+  "name": "babel_webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "babel": "node_modules/.bin/babel src/index -w -o dist/assets/bundle.js",
+    "webpack": "node_modules/.bin/webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.22.5",
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "webpack": "^5.87.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

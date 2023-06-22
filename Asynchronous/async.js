@@ -42,14 +42,14 @@ getTodos("jsons/data.json", (err, data) => {
   //   item.groups.foreach
   // })
 
-  // for (let i = 0; i < datas.length; i++) {
-  //   // console.log(datas.length);
-  //   for (let j = 0; j < datas[i].groups.length; j++) {
-  //     if (datas[i].groups[j].label == "Programm") {
-  //       console.log(datas[i].groups[j]);
-  //     }
-  //   }
-  // }
+  for (let i = 0; i < datas.length; i++) {
+    // console.log(datas.length);
+    for (let j = 0; j < datas[i].groups.length; j++) {
+      if (datas[i].groups[j].label == "Programm") {
+        console.log(datas[i].groups[j]);
+      }
+    }
+  }
 
   // console.log(typeof(data));
   // getTodos("jsons/mario.json", (err, data) => {

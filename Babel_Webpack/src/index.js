@@ -8,3 +8,6 @@ greet("mohsin");
 greet("raza");
 greet("qasim");
 greet("haider");
+greet("haider");
+greet("haider");
+greet("haider");

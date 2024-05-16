@@ -22,7 +22,6 @@ const getTodos = (resource, callback) => {
       //   status: request.status,
       // });
     } else if (request.readyState === 4) {
-      // reject("data could not fetch");
       callback("data could not fetch", undefined);
     }
   });
@@ -59,6 +58,7 @@ getTodos("jsons/data.json", (err, data) => {
   // });
   // });
 });
+
 
 //---------- promises -----------
 
@@ -102,7 +102,7 @@ getTodos("jsons/data.json", (err, data) => {
 //     console.log(err);
 //   });
 
-//========== async / await ===========
+//============= async / await ==============
 
 // const getTodos = async () => {
 

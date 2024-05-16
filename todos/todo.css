@@ -1,23 +1,23 @@
-body{
-    background-color: purple;
+body {
+   background-color: purple;
 }
 
-.container{
-    max-width: 40%;
+.container {
+   max-width: 40%;
 }
-input[type=text],
-input[type=text]:focus{
-    color: white;
-    border: none;
-    background-color: rgba(14, 13, 14, 0.2);
+input[type="text"],
+input[type="text"]:focus {
+   color: white;
+   border: none;
+   background-color: rgba(14, 13, 14, 0.2);
 }
-.todos li{
-    background-color: rgb(173, 24, 173);
-    border: 1px solid purple;
+.todos li {
+   background-color: rgb(173, 24, 173);
+   border: 1px solid purple;
 }
-.delete{
-    cursor: pointer;
+.delete {
+   cursor: pointer;
 }
-.filtered{
-    display: none !important;
+.filtered {
+   display: none !important;
 }
